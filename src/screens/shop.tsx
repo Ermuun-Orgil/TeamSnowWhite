@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
+<<<<<<< HEAD
 import {ColoredCarrotIcon, LocationIcon} from '../assets';
 import {Search, ShopCard, Slider} from '../components';
 import {
@@ -17,6 +18,10 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import {useNavigation} from '@react-navigation/native';
 const vegetableSale = require('../assets/images/vegetableSalePoster.png');
 const {width} = Dimensions.get('window');
+=======
+import {ShopCard, Headers} from '../components';
+import {useFireStoreCol} from '../hooks';
+>>>>>>> detail screen half
 
 const SlideShow = ({tag}: any) => {
   const exclusive = useCollectionSearch('products', 'tags', tag).collection;
