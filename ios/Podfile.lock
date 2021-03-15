@@ -600,7 +600,7 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - RNFBApp (10.8.1):
+  - RNFBApp (10.8.0):
     - Firebase/CoreOnly (~> 7.6.0)
     - React-Core
   - RNFBAuth (11.0.0):
@@ -674,7 +674,6 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
-  - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
   - "RNFBFirestore (from `../node_modules/@react-native-firebase/firestore`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
@@ -767,8 +766,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNFBApp:
     :path: "../node_modules/@react-native-firebase/app"
-  RNFBAuth:
-    :path: "../node_modules/@react-native-firebase/auth"
   RNFBFirestore:
     :path: "../node_modules/@react-native-firebase/firestore"
   RNGestureHandler:
@@ -835,11 +832,18 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
+<<<<<<< HEAD
   RNFBApp: 02bde3edecf2e9694b908a5d3504e03449980f20
   RNFBAuth: 9e00d7b12f85527b4b7ce731cabcce9f46acfc02
   RNFBFirestore: 337b96bf5b1b2d32bb9fc4735afd47b16532dde8
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNScreens: f7ad633b2e0190b77b6a7aab7f914fad6f198d8d
+=======
+  RNFBApp: 97b618641633d6d23187a9d0537c3893482c483f
+  RNFBFirestore: 859fc78b3dc89ef10e430b39cd9f14e07ef4e158
+  RNGestureHandler: e66feb0fda7da74ea6a3094656b3c1efe05f5c07
+  RNScreens: b6c9607e6fe47c1b6e2f1910d2acd46dd7ecea3a
+>>>>>>> feat: d
   RNSharedElement: 00b1a1420d213a34459bb9a5aacabb38107d7948
   RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
